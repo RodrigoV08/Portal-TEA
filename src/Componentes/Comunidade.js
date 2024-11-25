@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Comunidade = () => {
   const [posts, setPosts] = useState([
-    { id: 1, usuario: 'João', conteudo: 'Hoje foi um dia incrível!', curtidas: 12, comentarios: 5 },
+    { id: 1, usuario: 'João', conteudo: 'Hoje foi um dia incrível!', curtidas: 20, comentarios: 5 },
     { id: 2, usuario: 'Maria', conteudo: 'Feliz em fazer parte desta comunidade!', curtidas: 8, comentarios: 3 },
     { id: 3, usuario: 'Ana', conteudo: 'Compartilhando meu dia com vocês :)', curtidas: 20, comentarios: 7 },
   ]);
